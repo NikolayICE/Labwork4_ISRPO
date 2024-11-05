@@ -4,7 +4,6 @@
 #Folders
 __pycache__
 .DS_Store
-.gitignore
 
 # Compiled Object files
 *.slo
