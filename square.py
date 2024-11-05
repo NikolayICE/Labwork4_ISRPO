@@ -1,22 +1,12 @@
 
 def area(a):
-    ''' Функция возвращает площадь квадрата со стороной a
-        Параметры:
-            a (int): сторона квадрата
-        Возвращаемое значение:
-            area(a): число равное площади квадрата a * a 
-        Примеры вызова:
-            area(2)     # 4 '''
+    if a < 0:
+        raise ValueError("Side length must be non-negative")
     return a * a
 
 
 def perimeter(a):
-    ''' Функция возвращает периметр квадрата со стороной a
-        Параметры:
-            a (int): сторона квадрата
-        Возвращаемое значение:
-            perimeter(a): число равное периметру квадрата 4 * a 
-        Примеры вызова:
-            perimeter(2)     # 8 '''
+    if a < 0:
+        raise ValueError("Side length must be non-negative")
     return 4 * a
 
