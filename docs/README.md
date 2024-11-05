@@ -30,4 +30,4 @@
 Для запуска всех тестов выполните следующую команду:
 
 ```bash
-python -m unittest test_shapes.py
+python -m unittest tests.py
