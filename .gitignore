@@ -3,6 +3,7 @@
 
 #Folders
 __pycache__
+.DS_Store
 
 # Compiled Object files
 *.slo
